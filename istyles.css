@@ -143,12 +143,16 @@ span{
     justify-content: space-evenly;
     color: white;
 }
- 
+.panelOptions p{
+    margin-left: 10px;
+    padding: 8px;
+    display: inline;
+}
 .panelOptions{
     width: 100%;
 }
 .panelAll{
     margin-left: 10px;
-    padding: 8px;
+    padding: px;
     width:60px
 }
