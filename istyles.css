@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #00854e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("logo.png");
+    height:50px;
+    width:100px;
+    background-size: cover; 
+}
+.border{
+    border:2px solid transparent;
+
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** Styling Box 2**/
+.address1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.address2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.addressIcon{
+    display: flex;
+    align-items: center;
+}
+/**Styling Box 3**/
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.navSearch:hover{
+    border:2px solid rgb(201, 15, 123) 
+}
+.searchSelect{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchIcon{
+    width: 50px;
+    background-color: rgb(231, 11, 139);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/**Styling Box4**/
+.navLanguage{
+    width: 55px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+.flag{
+    width: 22px;
+    height: 16px;
+}
+.language{
+    width: 50px;
+    height: 16px;
+    background-color: #007185;
+    text-align: center;
+    color:white;
+    border: none;
+}
+.lang{
+    font-size: 0.9rem;
+}
+/**Styling Box4.1**/
+.navSignIn{
+    
+}
+span{
+    font-size: 0.8rem;
+}
+.account{
+    display: flex;
+}
+.account1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/**Styling Box5**/
+.navReturn{
+    
+}
+.return{
+    display: flex;
+}
+.Order{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/**Styling Box6**/
+.navCart i{
+    font-size: 35px;
+
+}
+.navCart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** STYLING PANEL **/
+.panel{
+    height:40px;
+    background-color: rgb(0, 128, 68);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+ 
+.panelOptions{
+    width: 100%;
+}
+.panelAll{
+    margin-left: 10px;
+    padding: 8px;
+    width:60px
+}
