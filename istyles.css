@@ -340,4 +340,8 @@ ul{
 .box1 a{
     color: white;
 }
+.box a{
+    font-size: 0.75rem;
+    color: green;
+}
 
