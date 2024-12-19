@@ -312,7 +312,7 @@ ul{
     border-top: 0.5px solid white;
 }
 .footerpanel4{
-    height:400px;
+    height:650px;
     display:flex;
     flex-direction: column;
     background-color: rgb(8, 7, 7);
@@ -320,19 +320,22 @@ ul{
     font-size: 0.6rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .panel4div1{
-    height:330px;
+    height:550px;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(5, 1fr) ;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .box1{
     height: 70px;
     width:18%;
     padding: 10px 10px 10px 10px;
     font-size: 12px;
+    margin-bottom: 40px;
 }
 .box1 p{
     color: grey;
@@ -343,5 +346,12 @@ ul{
 .box a{
     font-size: 0.75rem;
     color: green;
+}
+.panel4div3{
+    margin-top: 20px;
+    padding: 10px;
+    height:40px;
+    display: flex;
+    margin-bottom: 40px;
 }
 
